@@ -6,7 +6,8 @@ def main():
     chars_sorted_list = chars_dict_to_sorted_list(chars_dict)
 
     print(f"--- Begin report of {book_path} ---")
-    print(f"{num_words} words found in the document\n")
+    print(f"{num_words} words found in the document")
+    print()
 
     for item in chars_sorted_list:
         if not item["char"].isalpha():
